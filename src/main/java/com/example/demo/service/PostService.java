@@ -11,9 +11,9 @@ public class PostService {
     public List<Post> listAllPosts() {
         List<Post> posts = new ArrayList<>();
 
-        posts.add(new Post("бебебе"));
-        posts.add(new Post("бубубу"));
-        posts.add(new Post("пупупу"));
+        posts.add(new Post("пост 1"));
+        posts.add(new Post("пост 2"));
+        posts.add(new Post("пост 3"));
 
         return posts;
     }
